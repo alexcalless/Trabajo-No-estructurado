@@ -4,6 +4,9 @@ pip install --upgrade pip
 ! pip install streamlit -q
 import streamlit as st
 
+pip install streamlit-nested-layout
+pip install streamlit-on-Hover-tabs
+pip install git+https://github.com/crowsonkb/k-diffusion/
 
 
 %%writefile app.py
