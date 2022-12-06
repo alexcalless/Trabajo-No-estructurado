@@ -62,4 +62,4 @@ wav, rate = TTSHubInterface.get_prediction(task, model, generator, sample)
 
 ipd.Audio(wav, rate=rate)
 
-streamlit run app.py --server.gatherUsageStats False
+streamlit run app.py --browser.gatherUsageStats False
