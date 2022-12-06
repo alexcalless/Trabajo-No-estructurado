@@ -4,10 +4,9 @@ pip install --upgrade pip
 ! pip install streamlit -q
 import streamlit as st
 
-gatherUsageStats = false
 
-st.set_page_config(page_title="Page Title",layout="wide")
 
+%%writefile app.py
 import streamlit as st
 st.subheader("dtfgh")
 st.title("rtdfg")
@@ -62,3 +61,5 @@ sample = TTSHubInterface.get_model_input(task, text)
 wav, rate = TTSHubInterface.get_prediction(task, model, generator, sample)
 
 ipd.Audio(wav, rate=rate)
+
+streamlit run app.py --server.gatherUsageStats False
