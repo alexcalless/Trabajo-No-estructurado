@@ -4,6 +4,8 @@ pip install --upgrade pip
 ! pip install streamlit -q
 import streamlit as st
 
+gatherUsageStats = false
+
 st.set_page_config(page_title="Page Title",layout="wide")
 
 import streamlit as st
