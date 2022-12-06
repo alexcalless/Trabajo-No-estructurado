@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 """Trabajo Final NOESTRUCTURADOS.ipynb
+pip install --upgrade pip
 ! pip install streamlit -q
 import streamlit as st
 
