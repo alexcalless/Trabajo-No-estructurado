@@ -17,3 +17,5 @@ while len(texto) < maxlength:
 else:
   texto = ""
   st.write("El texto supera el límite de caracteres")
+  
+streamlit run trabajo_final_noestructurados.py
